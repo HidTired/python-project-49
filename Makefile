@@ -1,7 +1,16 @@
-.PHONY: install brain-games
+.PHONY: install brain-games build package-install clean
 
 install:
-    pip install --upgrade pip && pip install -r requirements.txt
+    uv sync
 
 brain-games:
-    python -m brain_games.run
+    uv run brain-games
+
+build:
+    uv build
+
+package-install:
+    uv tool install dist/*.whl
+
+clean:
+    rm -rf dist build *.egg-info
