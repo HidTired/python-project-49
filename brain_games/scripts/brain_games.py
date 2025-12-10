@@ -45,9 +45,9 @@ def main():
     if len(args) > 0:
         choose_game(args[0].strip())
     else:
-        manual_selection()
+        select_game_manually()
 
 if __name__ == "__main__":
     print("Welcome to the Brain Games!\n")
-    select_game_manually()
+    main()
 
