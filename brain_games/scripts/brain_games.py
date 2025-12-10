@@ -2,8 +2,6 @@ import sys
 from brain_games.engine import play
 from brain_games.utils import welcome_user
 
-import sys
-
 def choose_game(game_name):
     if game_name == 'calc':
         from brain_games.games.calc import play_calc_game
