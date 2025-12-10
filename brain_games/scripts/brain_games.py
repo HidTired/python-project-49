@@ -1,7 +1,6 @@
 import sys
 from brain_games.engine import play
 from brain_games.utils import welcome_user
-from brain_games.scripts.brain_games import main
 
 
 def choose_game(game_name):
