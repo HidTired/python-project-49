@@ -3,6 +3,7 @@ from brain_games.engine import play
 from brain_games.utils import welcome_user
 
 
+
 def choose_game(game_name):
     if game_name == 'calc':
         from brain_games.games.calc import play_calc_game
@@ -41,14 +42,17 @@ def select_game_manually():
         except ValueError:
             print("Please enter a valid integer.")
 
+
+def greet():
+    print('Welcome to the Brain Games!')
+    welcome_user()
+
+
 def main():
-    args = sys.argv[1:]
-    if len(args) > 0:
-        choose_game(args[0].strip())
-    else:
-        select_game_manually()
+    greet()
+
 
 if __name__ == "__main__":
-    print("Welcome to the Brain Games!\n")
     main()
+
 
