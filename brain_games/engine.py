@@ -1,8 +1,7 @@
 from brain_games.utils import welcome_user, prompt_string
 
-
 def play(question_generator):
-    player_name = welcome_user()  
+    player_name = welcome_user()  # Приветствуем пользователя
     rounds_to_win = 3
     wins = 0
 
