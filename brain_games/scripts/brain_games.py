@@ -2,11 +2,6 @@ import sys
 from brain_games.engine import play
 from brain_games.utils import welcome_user
 
-def main():
-    print("Welcome to the Brain Games!")
-
-
-
 import sys
 
 def choose_game(game_name):
@@ -46,6 +41,13 @@ def select_game_manually():
                 print("Invalid selection. Please enter a valid number.")
         except ValueError:
             print("Please enter a valid integer.")
+
+def main():
+    args = sys.argv[1:]
+    if len(args) > 0:
+        choose_game(args[0].strip())
+    else:
+        manual_selection()
 
 if __name__ == "__main__":
     print("Welcome to the Brain Games!\n")
