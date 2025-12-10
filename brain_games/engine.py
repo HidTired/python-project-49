@@ -1,25 +1,23 @@
-from brain_games.cli import welcome_user
-from prompt import string
+from brain_games.utils import welcome_user, prompt_string
 
 
-def play(game_module):
-    """
-    Основной цикл игры. Получает игру game_module и проводит три раунда.
-    """
-    player_name = welcome_user()  # Запрашиваем имя пользователя и запоминаем его
-    rounds_count = 3
-    
-    for _ in range(rounds_count):
-        question, correct_answer = game_module.generate_question_and_answer()
+def play(question_generator):
+    player_name = welcome_user()  
+    rounds_to_win = 3
+    wins = 0
+
+    while wins < rounds_to_win:
+        question, correct_answer = question_generator()
+        print(f"Question: {question}")
+        user_answer = prompt_string("Your answer: ").strip()
         
-        print(f"\nQuestion: {question}")
-        user_answer = string("Your answer: ").strip()
-        
-        if str(user_answer) != str(correct_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Lets try again, {player_name}!")
-            break
-        else:
+        if user_answer == str(correct_answer):
             print("Correct!")
-    else:
-        print("\nCongratulations, {}!".format(player_name))
+            wins += 1
+        else:
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {player_name}!")
+            break
+
+    if wins >= rounds_to_win:
+        print(f"Congratulations, {player_name}!")

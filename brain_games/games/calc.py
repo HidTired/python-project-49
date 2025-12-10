@@ -1,6 +1,8 @@
 import random
 from operator import add, sub, mul
-from brain_games.engine import play  
+from brain_games.utils import welcome_user, prompt_string
+from brain_games.engine import play
+import sys  # Импортируем модуль sys для доступа к таблице модулей
 
 OPERATIONS = {
     '+': add,
@@ -18,6 +20,8 @@ def generate_question_and_answer():
     
     return question, correct_answer
 
-def play_game():
-    from brain_games.games import calc as game_module
-    play(game_module)
+def play_calc_game():
+    play(generate_question_and_answer)
+
+if __name__ == "__main__":
+    play_calc_game()

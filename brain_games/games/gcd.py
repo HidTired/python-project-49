@@ -1,6 +1,6 @@
 import random
 from math import gcd
-from brain_games.cli import welcome_user, prompt_string
+from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
 
 def generate_question_and_answer():
