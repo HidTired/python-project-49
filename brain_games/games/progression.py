@@ -13,7 +13,7 @@ def hide_element(progression):
 
 def play_progression_game():
 
-    username = welcome_user()
+
     print("What number is missing in the progression?")
 
     correct_answers_needed = 3

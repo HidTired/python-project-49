@@ -19,7 +19,6 @@ def is_prime(n):
     return True
 
 def play_prime_game():
-    username = welcome_user()
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
 
     correct_answers_needed = 3

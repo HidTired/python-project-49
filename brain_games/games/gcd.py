@@ -11,7 +11,6 @@ def generate_question_and_answer():
     return question, correct_answer
 
 def play_game():
-    # Прямой импорт модуля
     from brain_games.games import gcd as game_module
     play(game_module)
 
@@ -21,7 +20,6 @@ def generate_numbers():
 
 username = welcome_user()
 def play_gcd_game():
-
     print("Find the greatest common divisor of given numbers.")
 
     correct_answers_needed = 3
