@@ -2,7 +2,7 @@ import random
 from operator import add, sub, mul
 from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
-import sys  # Импортируем модуль sys для доступа к таблице модулей
+import sys 
 
 OPERATIONS = {
     '+': add,
