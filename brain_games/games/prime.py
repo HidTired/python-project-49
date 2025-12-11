@@ -1,4 +1,5 @@
 import random
+from brain_games import utils
 from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
 
@@ -18,7 +19,7 @@ def is_prime(n):
         w = 6 - w
     return True
 
-#username = welcome_user()
+
 
 def play_prime_game():
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
@@ -38,10 +39,10 @@ def play_prime_game():
             current_correct_answers += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {username}!")
+            print(f"Let's try again, {utils.name}!")
             return
 
-    print(f"Congratulations, {username}!")
+    print(f"Congratulations, {utils.name}!")
 
 if __name__ == "__main__":
     play_prime_game()

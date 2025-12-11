@@ -1,5 +1,6 @@
 import random
 from math import gcd
+from brain_games import utils
 from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
 
@@ -39,10 +40,10 @@ def play_gcd_game():
             current_correct_answers += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {username}!")
+            print(f"Let's try again, {utils.name}!")
             return
 
-    print(f"Congratulations, {username}!")
+    print(f"Congratulations, {utils.name}!")
 
 if __name__ == "__main__":
     play_gcd_game()

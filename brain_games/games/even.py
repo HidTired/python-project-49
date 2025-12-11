@@ -1,13 +1,13 @@
 import random
+from brain_games import utils
 from brain_games.utils import welcome_user, prompt_string
-from brain_games.engine import play 
+from brain_games.engine import play
 
 def generate_random_number():
     return random.randint(1, 100)
 
 def is_even(num):
     return num % 2 == 0
-
 
 
 def play_even_game():
@@ -18,7 +18,7 @@ def play_even_game():
 
     while current_round < rounds_to_win:
         number = generate_random_number()
-        print(f"Question: {number}") 
+        print(f"\nQuestion: {number}")
         
         user_answer = prompt_string("Your answer: ").strip().lower()
         
@@ -29,10 +29,10 @@ def play_even_game():
             current_round += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {username}!")
+            print(f"Let's try again, {utils.name}!")
             return
     
-    print(f"Congratulations, {username}!")
+    print(f"Congratulations, {utils.name}!")
 
 def generate_question_and_answer():
     number = random.randint(1, 100)
