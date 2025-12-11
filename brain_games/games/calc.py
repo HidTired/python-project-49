@@ -2,7 +2,7 @@ import random
 from operator import add, sub, mul
 from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
-import sys 
+import sys  
 
 OPERATIONS = {
     '+': add,
@@ -17,8 +17,9 @@ def generate_question_and_answer():
     
     question = f"{num1} {operation} {num2}"
     correct_answer = OPERATIONS[operation](num1, num2)
-    
     return question, correct_answer
+
+username = welcome_user()
 
 def play_calc_game():
     play(generate_question_and_answer)

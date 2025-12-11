@@ -20,6 +20,7 @@ def generate_numbers():
 
 username = welcome_user()
 def play_gcd_game():
+
     print("Find the greatest common divisor of given numbers.")
 
     correct_answers_needed = 3

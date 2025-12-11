@@ -18,6 +18,8 @@ def is_prime(n):
         w = 6 - w
     return True
 
+username = welcome_user()
+
 def play_prime_game():
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
 
