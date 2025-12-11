@@ -1,5 +1,4 @@
 from brain_games.games.progression import play_progression_game
-from brain_games.games.gcd import play_gcd_game
 from brain_games import utils
 from brain_games.utils import welcome_user
 
