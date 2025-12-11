@@ -3,6 +3,7 @@ from brain_games import utils
 from brain_games.utils import welcome_user
 
 def main():
+    welcome_user()
     play_progression_game()
 
 if __name__ == "__main__":
