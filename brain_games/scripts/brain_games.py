@@ -1,7 +1,7 @@
-from brain_games import utils
+from brain_games.utils import welcome_user
 
 def main():
-    utils.welcome_user()
+    welcome_user()
 
 
 if __name__ == "__main__":
