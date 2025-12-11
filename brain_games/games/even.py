@@ -33,10 +33,6 @@ def play_even_game():
     
     print(f"Congratulations, {username}!")
 
-if __name__ == "__main__":
-    play_even_game()
-
-
 def generate_question_and_answer():
     number = random.randint(1, 100)
     question = str(number)
@@ -46,3 +42,6 @@ def generate_question_and_answer():
 def play_game():
     from brain_games.games import even as game_module
     play(game_module)
+
+if __name__ == "__main__":
+    play_even_game()
