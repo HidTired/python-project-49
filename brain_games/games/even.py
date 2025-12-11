@@ -17,7 +17,7 @@ def play_even_game():
 
     while current_round < rounds_to_win:
         number = generate_random_number()
-        print(f"\nQuestion: {number}") 
+        print(f"Question: {number}") 
         
         user_answer = prompt_string("Your answer: ").strip().lower()
         
