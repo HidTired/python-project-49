@@ -1,4 +1,4 @@
-from brain_games.games.gcd import play_gcd_game
+from brain_games.games.even import play_gcd_game
 from brain_games import utils
 from brain_games.utils import welcome_user
 
