@@ -2,7 +2,6 @@ from brain_games.utils import welcome_user
 
 
 def greet():
-
     welcome_user()
 
 
