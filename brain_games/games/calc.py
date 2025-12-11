@@ -4,6 +4,8 @@ from brain_games.utils import welcome_user, prompt_string
 from brain_games.engine import play
 import sys  
 
+print("What is the result of the expression?")
+
 OPERATIONS = {
     '+': add,
     '-': sub,
@@ -20,8 +22,8 @@ def generate_question_and_answer():
     return question, correct_answer
 
 def play_calc_game():
-    print("What is the result of the expression?")
     play(generate_question_and_answer)
+
 
 
 
