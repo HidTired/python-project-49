@@ -19,7 +19,7 @@ def generate_question_and_answer():
     correct_answer = OPERATIONS[operation](num1, num2)
     return question, correct_answer
 
-username = welcome_user()
+#username = welcome_user()
 
 def play_calc_game():
     play(generate_question_and_answer)

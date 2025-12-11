@@ -8,7 +8,8 @@ def generate_random_number():
 def is_even(num):
     return num % 2 == 0
 
-username = welcome_user()
+#username = welcome_user()
+
 def play_even_game():
     print("Answer 'yes' if the number is even, otherwise answer 'no'.")
     rounds_to_win = 3

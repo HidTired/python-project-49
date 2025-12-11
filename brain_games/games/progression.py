@@ -11,7 +11,7 @@ def hide_element(progression):
     progression[hidden_position] = '..'
     return progression, hidden_position
 
-username = welcome_user()
+#username = welcome_user()
 
 def play_progression_game():
     print("What number is missing in the progression?")

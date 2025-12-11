@@ -18,7 +18,8 @@ def generate_numbers():
     return random.randint(1, 100), random.randint(1, 100)
 
 
-username = welcome_user()
+#username = welcome_user()
+
 def play_gcd_game():
 
     print("Find the greatest common divisor of given numbers.")
