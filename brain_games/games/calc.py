@@ -9,6 +9,7 @@ OPERATIONS = {
     '*': mul
 }
 
+
 def game_concept():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)

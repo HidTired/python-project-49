@@ -14,6 +14,7 @@ def generate_sequence():
     
     return sequence
 
+
 def game_concept():
     sequence = generate_sequence()
     secret_number = random.choice(sequence)
