@@ -1,6 +1,8 @@
 import random
 
+
 law = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def game_concept():
     question = random.randint(0, 100)

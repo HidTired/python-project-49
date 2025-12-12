@@ -2,6 +2,7 @@ import random
 
 law = 'What number is missing in the progression?'
 
+
 def generate_sequence():
     initial_value = random.randint(1, 20)
     seq_len = random.randint(5, 10)

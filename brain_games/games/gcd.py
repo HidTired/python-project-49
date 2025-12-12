@@ -3,6 +3,7 @@ from math import gcd
 
 law = "Find the greatest common divisor of given numbers."
 
+
 def game_concept():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
