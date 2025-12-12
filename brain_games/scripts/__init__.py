@@ -1,1 +1,1 @@
-from .brain_games import main
+from .brain_games import main as main
