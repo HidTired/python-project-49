@@ -35,17 +35,17 @@ brain-gcd # Найди наибольший общий делитель
 
 ### Демонстрация
 
-brain-calc
-[![asciicast](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl.svg)](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl.svg)
+    brain-calc
+[![asciicast](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl.svg)](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl)
 
-brain-even
-[![asciicast](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ.svg)](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ.svg)
+    brain-even
+[![asciicast](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ.svg)](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ)
 
-brain-progression
+    brain-progression
 [![asciicast](https://asciinema.org/a/in2nVsdQFzSMyvkRdeyfimLHS.svg)](https://asciinema.org/a/in2nVsdQFzSMyvkRdeyfimLHS)
 
-brain-prime
+    brain-prime
 [![asciicast](https://asciinema.org/a/RN0dPba4CCRqK50h1gYlnY2kV.svg)](https://asciinema.org/a/RN0dPba4CCRqK50h1gYlnY2kV)
 
-brain-gcd
-[![asciicast](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa.svg)](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa.svg)
+    brain-gcd
+[![asciicast](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa.svg)](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa)
