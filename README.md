@@ -36,16 +36,16 @@ brain-gcd # Найди наибольший общий делитель
 ### Демонстрация
 
 brain-calc
-https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl
+[![asciicast](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl.svg)](https://asciinema.org/a/vfuOIqjzdwwD7MpNoAilBSBYl.svg)
 
 brain-even
-https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ
+[![asciicast](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ.svg)](https://asciinema.org/a/2lbeJzZ1z9rhIe41lovf4L2rZ.svg)
 
 brain-progression
-https://asciinema.org/a/in2nVsdQFzSMyvkRdeyfimLHS
+[![asciicast](https://asciinema.org/a/in2nVsdQFzSMyvkRdeyfimLHS.svg)](https://asciinema.org/a/in2nVsdQFzSMyvkRdeyfimLHS)
 
 brain-prime
-https://asciinema.org/a/RN0dPba4CCRqK50h1gYlnY2kV
+[![asciicast](https://asciinema.org/a/RN0dPba4CCRqK50h1gYlnY2kV.svg)](https://asciinema.org/a/RN0dPba4CCRqK50h1gYlnY2kV)
 
 brain-gcd
-https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa
+[![asciicast](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa.svg)](https://asciinema.org/a/Z44MJPobYWpHjVTQAKiiQYSFa.svg)
