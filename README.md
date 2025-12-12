@@ -27,11 +27,14 @@
     python -m pip install --user dist/*.whl
 
 ### Команды для старта игр
-
  -brain-calc # Калькулятор
+
  -brain-even # Чётное / Нечётное
+
  -brain-progression # Найди пропущенное число
+
  -brain-prime # Простое ли это число?
+
  -brain-gcd # Найди наибольший общий делитель
 
 ### Демонстрация
